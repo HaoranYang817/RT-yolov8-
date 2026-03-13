@@ -17,7 +17,9 @@ env/
 runs/
 
 # Dataset
-datasets/
+datasets/*
+!datasets/VOC_subset/
+!datasets/VOC_subset/**
 
 # Model weights
 *.pt
